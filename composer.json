@@ -1,0 +1,22 @@
+{
+  "name": "vendor_name/intelogis",
+  "description": "Test task intelogis",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Stone",
+      "email": "axelstoun@mail.ru"
+    }
+  ],
+  "autoload": {
+    "psr-4": {"DeliveryTestTask\\": "DeliveryTestTask/"}
+  },
+  "require": {
+      "php": "7.4.*",
+      "ext-curl": "^7.3",
+      "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9"
+  }
+}
